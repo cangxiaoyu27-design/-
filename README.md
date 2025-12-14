@@ -19,11 +19,11 @@
 
 <script>
 function check() {
-  const password = "BESTMAID"; // ←ここが正解パスワード
+  const password = "BESTAGENT"; // 
   const input = document.getElementById("pw").value;
 
   if (input === password) {
-    window.location.href = "https://ここに飛ばしたいURL";
+    window.location.href = "[https://ここに飛ばしたいURL](https://www.notion.so/2c9e9cb506cf8094aee8dcd6a197bab5?source=copy_link)";
   } else {
     document.getElementById("msg").innerText = "ACCESS DENIED";
   }
